@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hotel List</title>
+    <link rel="stylesheet" href="style/gaya.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css" />
+</head>
+
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top"
+        style="background-color: #4700D8 ; padding-bottom: 25px;">
+        <!-- Logo  -->
+        <a class="navbar-brand" href="index.html"><img
+                src="https://i.pinimg.com/474x/14/4b/32/144b32ba16eca8e1310d86ee72441ae2--house-logos-logo-pond.jpg"
+                style="width: 50px; height: 50px" /></a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse mx-auto justify-content-md-center" id="collapsibleNavbar">
+            <ul class="navbar-nav col-md-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">
+
+                        Menu
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="kalkulator.html">Kalkulator</a>
+                        <a class="dropdown-item" href="Modul 4 T3/tugas3.php">Form</a>
+                        <a class="dropdown-item" href="favourite.html">Favourite</a>
+                        <a class="dropdown-item" href="about.html">About</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Header -->
+
+    <section class="container-list">
+        <h1 style="text-align: center">Hotel List</h1>
+
+        <input type="text" style="margin-bottom: 10px" class="nama-hotel" placeholder="Nama Hotel" />
+        <br />
+        <input type="text" class="hotel-harga" placeholder="Harga Hotel" />
+        <br />
+        <button type="button" class="btn btn-primary">Add Hotel</button>
+
+        <table class="table-list">
+            <thead>
+                <th class="col-5 sort-name">Nama Hotel</th>
+                <th class="col-10 sort-harga">Harga</th>
+                <th class="action">Action</th>
+                <input type="text" class="search" placeholder="Cari Hotel" />
+            </thead>
+            <tbody>
+                <tr class="table-item">
+                    <td class="name">Kurotakesso Hotel</td>
+                    <td class="harga">2000000</td>
+                    <td class="delete">DELETE</td>
+                </tr>
+                <tr class="table-item">
+                    <td class="name">Ancient Hotel</td>
+                    <td class="harga">4000000</td>
+                    <td class="delete">DELETE</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <!--Footer Mulai-->
+    <section class="footer">
+
+        <div class="box-container">
+
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="index.html"> <i class="fas fa-angle-right"></i> home</a>
+                <a href="kalkulator.html"> <i class="fas fa-angle-right"></i> kalkulator</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> email</a>
+                <a href="favourite.html"> <i class="fas fa-angle-right"></i> favourite</a>
+                <a href="about.html"> <i class="fas fa-angle-right"></i> about</a>
+            </div>
+
+            <div class="box">
+                <h3>extra links</h3>
+                <a href="#"> <i class="fas fa-angle-right"></i> ask questions</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> about us</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> privacy policy</a>
+                <a href="#"> <i class="fas fa-angle-right"></i> terms of use</a>
+            </div>
+
+            <div class="box">
+                <h3>contact info</h3>
+                <a href="#"> <i class="fas fa-phone"></i> +62 82-336-847-334 </a>
+                <a href="#"> <i class="fas fa-phone"></i> +111-222-3333 </a>
+                <a href="#"> <i class="fas fa-envelope"></i> kelvinaprilio@webmail.umm.ac.id </a>
+                <a href="#"> <i class="fas fa-map"></i> Kediri, Indonesia - 12345 </a>
+            </div>
+
+            <div class="box">
+                <h3>follow us</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
+            </div>
+
+        </div>
+
+        <div class="credit"> created by <span>Kelvin Aprilio A.K.A Mutu</span> | all rights reserved! </div>
+
+    </section>
+    <!--Footer Selesai-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

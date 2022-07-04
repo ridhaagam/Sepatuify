@@ -1,0 +1,49 @@
+.container-list {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.table-list {
+    margin-top: 15px;
+    color: black;
+    text-align: center;
+    border: 0.3rem solid #4700D8;
+    box-shadow: 0 10px 15px #0907a0;
+}
+
+.sort-name {
+    background-color: #0907a0;
+    color: white;
+}
+
+.sort-harga {
+    background-color: #0907a0;
+    color: white;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.action {
+    margin-left: 500px;
+    background-color: #0907a0;
+    color: white;
+}
+
+.search {
+    margin-left: 66rem;
+}
+
+.delete {
+    background-color: red;
+    border: none;
+    margin-top: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+}

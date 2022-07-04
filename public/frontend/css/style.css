@@ -1,0 +1,236 @@
+@import url(about.css);
+@import url(list.css);
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: sans-serif;
+    user-select: none;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 1rem 9%;
+}
+
+/*Container Konten*/
+
+#konten {
+    margin: 0 auto;
+    margin-bottom: 20rem;
+    padding: 0;
+}
+
+.penawaran {
+    background: #5c5d5e;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    height: 70px;
+    width: auto;
+    text-align: center;
+}
+
+.penawaran h2 {
+    font-size: 40px;
+    font-weight: 600;
+    font-style: italic;
+    color: white;
+}
+
+.container-konten {
+    height: auto;
+}
+
+.container-konten .row {
+    display: flex;
+}
+
+.row .kiri {
+    margin: 10px 20px 10px 70px;
+    max-width: 800px;
+}
+
+.row .kiri .hot-konten {
+    background-color: white;
+    border: 0.3rem solid #445337;
+    box-shadow: 0 10px 15px #293023;
+}
+.row .kiri .hot-konten h3 {
+    padding-left: 10px;
+    color: rgb(68, 66, 66);
+    font-weight: 10;
+    margin-bottom: 20px;
+}
+
+.row .kiri .hot-konten h1 {
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.row .kiri .hot-konten img {
+    width: 500px;
+    margin-left: 150px;
+}
+
+.row .kiri .hot-konten p {
+    padding-left: 10px;
+    letter-spacing: 1px;
+    font-size: 18px;
+}
+
+.row .kiri .tanggal {
+    margin-top: 10px;
+}
+
+.row .kiri .sub-konten {
+    margin: 20px 0 0 0;
+    display: flex;
+    width: 800px;
+}
+
+.row .kiri .box {
+    border: 0.2rem solid #293023;
+    box-shadow: 0 10px 15px #293023;
+    width: 600px;
+    margin: 0 30px 10px 0px;
+}
+.row .kiri .box h1 {
+    text-align: center;
+}
+.row .kiri .box img {
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 280px;
+}
+
+.row .kiri .box p {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    color: grey;
+    margin-top: 8px;
+}
+
+.row .kanan .box-nav {
+    margin-top: 30px;
+    margin-left: 250px;
+    display: block;
+    border: 0.2rem solid #445337;
+    box-shadow: 0 10px 15px #293023;
+    width: 300px;
+    margin-bottom: 50px;
+}
+
+.row .kanan .box-nav a {
+    color: black;
+}
+
+.kanan .box-nav .heading {
+    background: #293023;
+    text-align: center;
+}
+
+.kanan .box-nav h1 {
+    color: white;
+    font-size: 30px;
+}
+
+.row .kanan .jenis {
+    padding-left: 50px;
+}
+
+.row .kanan .jenis a {
+    text-decoration: none;
+}
+
+.row .kanan ul li {
+    padding: 10px;
+    font-size: 20px;
+}
+
+/*Container Konten*/
+
+/*Pagination*/
+
+.pagination {
+    display: inline-block;
+    position: relative;
+    left: 200px;
+    top: 20px;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid;
+}
+
+/*Pagination*/
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #293023;
+    color: white;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #aaa;
+    margin-bottom: 0;
+}
